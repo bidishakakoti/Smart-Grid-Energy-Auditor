@@ -1,5 +1,3 @@
-# Smart-Grid-Energy-Auditor
-A smart grid energy auditor system developed using OOP concepts to analyze, monitor, and optimize energy consumption efficiently.
 # ⚡ Smart Grid Energy Auditor
 
 > A C++ simulation of an intelligent home energy monitoring system that audits appliance efficiency, manages load safety, and calculates tiered billing — built as a showcase of modern Object-Oriented Programming.

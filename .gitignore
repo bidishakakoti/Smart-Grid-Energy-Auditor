@@ -1,69 +1,48 @@
-# Prerequisites
-*.d
+# ──────────────────────────────────────────
+#  SmartGridAuditor — .gitignore
+# ──────────────────────────────────────────
 
-# Compiled Object files
-*.slo
-*.lo
+# Compiled Binaries
+SmartGridAuditor
+SmartGridAuditor.exe
+
+# Object files & static/shared libs
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
+*.so
+*.dll
 *.lib
 
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
+# CMake build output
 build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
+cmake-build-debug/
+cmake-build-release/
 CMakeCache.txt
+CMakeFiles/
 cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
+Makefile.cmake
 
-# Temporary files
-*.tmp
-*.log
-*.bak
-*.swp
+# Auto-generated data files (runtime output, not source)
+data/audit_logs.txt
+data/session.txt
 
-# vcpkg
-vcpkg_installed/
+# IDE & Editor settings
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docinfo
+*.code-workspace
+*.exe
 
-# debug information files
-*.dwo
+# macOS junk
+.DS_Store
 
-# test output & cache
-Testing/
-.cache/
+# Windows junk
+Thumbs.db
+desktop.ini
+
+# Dependency / package dirs (if any are added later)
+deps/
+third_party/
